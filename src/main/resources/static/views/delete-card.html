@@ -1,0 +1,20 @@
+<div class="" ng-controller="DeleteCardController">
+    <div class="card card-2">
+        <div class="card-body">
+            <h1>Delete Card</h1>
+            <form ng-submit="deleteCard()">
+                <div class="mb-3">
+                    <label class="form-label" for="pan">PAN:</label>
+                    <input class="form-control" type="text" id="pan" ng-model="card.pan">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="validationNumber">Validation Number:</label>
+                    <input class="form-control" type="text" id="validationNumber" ng-model="card.validationNumber">
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-danger" type="submit">Delete Card</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
